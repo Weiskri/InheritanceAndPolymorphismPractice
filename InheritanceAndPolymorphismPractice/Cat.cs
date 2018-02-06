@@ -15,7 +15,7 @@ namespace InheritanceAndPolymorphismPractice
         // still nothing
 
         // constructor
-        public Cat (string breed) : base ("house", true)
+        public Cat (string breed) : base ("house", true) // not inherited, but can reference
         {
             // nothing here either
         }

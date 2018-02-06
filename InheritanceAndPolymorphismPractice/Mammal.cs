@@ -34,9 +34,9 @@ namespace InheritanceAndPolymorphismPractice
             // default constructor
         }
 
-        public Mammal (string habitat, bool domestication)
+        public Mammal (string habitat, bool domestication) 
         {
-            this.habitat = habitat;
+            this.habitat = habitat; // setting what is passed in equal to the field
             this.domestication = domestication;
         }
 
