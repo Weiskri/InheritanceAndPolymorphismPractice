@@ -23,5 +23,20 @@ namespace InheritanceAndPolymorphismPractice
         {
             IsSwanky = isSwanky; // don't need "this" because one is lowercase and one is uppercase
         }
+
+        // methods
+        public override void Activate()
+        {
+            IsSwanky = true; // again, referencing the property because the field is incognito
+            if (IsActive == false)
+            {
+                IsActive = true;
+                Console.WriteLine("You are now a big deal.");
+            }
+            else
+            {
+                Console.WriteLine("You're already a big deal.");
+            }
+        }
     }
 }

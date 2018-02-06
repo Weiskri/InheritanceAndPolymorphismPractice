@@ -21,6 +21,15 @@ namespace InheritanceAndPolymorphismPractice
 
             //siamese.IsDomesticated();
             //continentalGiant.IsDomesticated();
+
+
+            //StandardMembership gymMemberOne = new StandardMembership(100);
+            //VIPMembership gymMemberTwo = new VIPMembership();
+
+            //gymMemberOne.Activate(); // the bool isActive is set to false as default
+            //gymMemberTwo.Activate();
+
+
         }
     }
 }
