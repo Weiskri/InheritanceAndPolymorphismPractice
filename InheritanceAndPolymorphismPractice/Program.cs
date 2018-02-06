@@ -10,17 +10,17 @@ namespace InheritanceAndPolymorphismPractice
     {
         static void Main(string[] args)
         {
-            Rabbit continentalGiant = new Rabbit("Continental Giant");
-            Cat siamese = new Cat("Siamese");
+            //Rabbit continentalGiant = new Rabbit("Continental Giant");
+            //Cat siamese = new Cat("Siamese");
 
-            continentalGiant.Groom();
-            continentalGiant.Eat();
+            //continentalGiant.Groom();
+            //continentalGiant.Eat();
 
-            siamese.Eat();
-            siamese.PetCat();
+            //siamese.Eat();
+            //siamese.PetCat();
 
-            siamese.IsDomesticated();
-            continentalGiant.IsDomesticated();
+            //siamese.IsDomesticated();
+            //continentalGiant.IsDomesticated();
         }
     }
 }
